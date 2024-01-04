@@ -1,0 +1,38 @@
+{
+  "name": "Easy Deposit",
+  "author": "Aidanamite",
+  "description": "Adds an easy way to deposit items from inventory to nearby chests",
+  "version": "1.3.8",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/easy-deposit/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "name": "Deposit Key",
+      "type": "keybind",
+      "mainDefault": "Z"
+    },
+    {
+      "name": "Ignore Hotbar Items",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Show Deposit Notifications",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "type": "input",
+      "text": "Deposit Distance Multiplier",
+      "name": "distance",
+      "mode": "DecimalNumber",
+      "default": "1"
+    }
+  ]
+}
